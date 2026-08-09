@@ -25,6 +25,9 @@
 
 ## Preview
 
+<details open>
+<summary>Show details</summary>
+
 <table>
   <tr>
     <td width="50%" align="center">
@@ -63,6 +66,8 @@
     </td>
   </tr>
 </table>
+
+</details>
 
 ## Features
 

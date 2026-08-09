@@ -25,6 +25,9 @@
 
 ## 部分预览
 
+<details open>
+<summary>展示详情</summary>
+
 <table>
   <tr>
     <td width="50%" align="center">
@@ -63,6 +66,8 @@
     </td>
   </tr>
 </table>
+
+</details>
 
 ## 功能
 
