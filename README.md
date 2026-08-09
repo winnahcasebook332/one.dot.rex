@@ -28,9 +28,9 @@
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="assets/screenshots/timeline.jpg" alt="Timeline and restored branding"><br>
+      <img src="assets/screenshots/timeline_alt.png" alt="Timeline and restored branding"><br>
       <strong>Timeline & restored branding</strong><br>
-      <sub>Dynamic colors, the Twitter bird, birdhouse Home icon, M3 FAB, a cleaner navigation bar, and cats</sub>
+      <sub>Dynamic colors, the Twitter bird, birdhouse Home icon, M3 FAB with La Pluma icon, a cleaner navigation bar, and cats</sub>
     </td>
     <td width="50%" align="center">
       <img src="assets/screenshots/appearance.jpg" alt="Appearance and brand icons"><br>
@@ -77,6 +77,7 @@
 - Tint the brand icon at the top of Home with the theme color, as old Twitter did, instead of rendering it in black or white.
 - Replace the 𝕏 logo with the Twitter bird.
 - Replace the Home navigation icon with the birdhouse icon.
+- Replace the post FAB button icon with the quill icon.
 - Use the system font instead of Chirp.
 - Use Twemoji like the web app and old Twitter.
 - Force shared-element transitions when opening images.
@@ -93,7 +94,8 @@
 - Hide promoted content in timelines and post replies.
 - Hide the live Spaces bar at the top of the timeline.
 - Hide the floating new-posts prompt at the top of the timeline.
-- Prevent the Home timeline from refreshing automatically when the app starts and in similar situations.
+- Prevent the Home timeline from refreshing automatically when the app starts or tab is switched.
+- Remember and restore the last tab when the app starts.
 - Remember and restore the last scroll position in the timeline when the app starts.
 - Set profile media tabs to a single Media tab, separate Photos and Videos tabs, or a combined tab that opens to a chosen media type by default.
 - Remove the standalone Reposts tab and return reposts to the Posts tab.
@@ -119,11 +121,18 @@
 
 - Browse and override Boolean Feature Switches collected from the currently supported X version.
 
-Results may depend on the X version, account experiments, and server-side configuration.
+### Planned / TODO
+
+The following features are under priority evaluation or development and may be added gradually in subsequent versions:
+
+- [ ] Grok translation source replacement
+- [ ] Conditional filtering of posts or replies
 
 ## Where does the “Re” come in?
 
-After Hachidori stopped being maintained, I never found another LSPosed solution that really fit the way I use X. Rather than maintain a separately patched client, I prefer to keep the official X app updating normally through the Play Store and let LSPosed make the changes at runtime.
+After Hachidori stopped being maintained, I never found another LSPosed solution that really fit the way I use X.
+
+The `Re` is basically about picking up where this kind of module left off and starting fresh at the same time. Re:X is built from the ground up specifically for the refactored X Android interface.
 
 It started simply because I couldn't stand that Premium users on iOS could customize their navigation bar while Android users still couldn't, so I added it myself. I'll probably keep adding little things I personally want to change, and I want the module's own settings UI to feel pleasant and easy to use too.
 
@@ -136,7 +145,7 @@ It started simply because I couldn't stand that Premium users on iOS could custo
 | Framework      | A recent LSPosed build, or another compatible framework providing Modern Xposed API 101–102 |
 | Target package | X for Android — `com.twitter.android`                                                       |
 | Current target | X 12.15.0-beta                                                                              |
-| Tested with    | X 12.14.0-release                                                                           |
+| Tested with    | X 12.14.0-release, X 12.13.0-release                                                                           |
 
 Re:X only targets the redesigned X interface introduced in 2026. The older pre-rewrite interface and legacy mode are not supported.
 
@@ -174,13 +183,7 @@ When reporting a compatibility issue, please include your Re:X version, X versio
 
 ## Support Re:X
 
-Re:X is free to use. If it makes scrolling X a little nicer, you can [support 1Dot on Ko-fi](https://ko-fi.com/1dot), or open **Support** in the app for a WeChat Reward Code and Alipay payment QR code.
-
-No need to feed me, though—just keep using it :)
-
-<p align="center">
-  <a href="https://ko-fi.com/1dot"><img alt="Support Re:X on Ko-fi" src="https://img.shields.io/badge/meow-Support_on_Ko--fi-FF5E5B?logo=kofi&amp;logoColor=white"></a>
-</p>
+Re:X is free to use. If it makes scrolling X a little nicer, you can [support 1Dot on Ko-fi](https://ko-fi.com/1dot).
 
 ## Distribution
 
