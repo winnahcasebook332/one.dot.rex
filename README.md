@@ -9,10 +9,8 @@
 <h1 align="center">Re:X</h1>
 
 <p align="center">
-  <a href="https://github.com/Xposed-Modules-Repo/one.dot.rex/releases"><img alt="Re:X 1.0.0" src="https://img.shields.io/badge/release-1.0.0-1d9bf0"></a>
   <img alt="Android 12 or later" src="https://img.shields.io/badge/Android-12%2B-3DDC84?logo=android&amp;logoColor=white">
-  <a href="https://modules.lsposed.org/"><img alt="LSPosed Modern API 101–102" src="https://img.shields.io/badge/LSPosed-Modern_API_101--102-5C6BC0"></a>
-  <img alt="Target: X for Android" src="https://img.shields.io/badge/target-X_Android-111111?logo=x&amp;logoColor=white">
+  <a href="https://modules.lsposed.org/"><img alt="LSPosed Modern API 102" src="https://img.shields.io/badge/LSPosed-Modern_API_102-5C6BC0"></a>
   <a href="https://t.me/re_x_mod"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-join-26A5E4?logo=telegram&amp;logoColor=white"></a>
   <a href="https://ko-fi.com/1dot"><img alt="Ko-fi" src="https://img.shields.io/badge/Ko--fi-support-FF5E5B?logo=kofi&amp;logoColor=white"></a>
 </p>
