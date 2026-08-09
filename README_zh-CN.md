@@ -26,7 +26,7 @@
 ## 部分预览
 
 <details open>
-<summary>展示详情</summary>
+<summary>预览截图</summary>
 
 <table>
   <tr>
@@ -126,20 +126,11 @@
 
 - 浏览并覆盖当前适配版本中整理出的布尔 Feature Switch
 
-### 计划中 / TODO
-
-以下功能正在优先评估或开发中，可能在后续版本逐步加入：
-
-- [ ] Grok 翻译源替换
-- [ ] 条件过滤帖子或回复
-
 ## 哪里 Re 了
 
-Hachidori 停止维护以后，我一直没找到一个很合自己习惯的同类 LSPosed 方案。
+Hachidori 停止维护以后，我一直没找到一个很合自己习惯的同类 LSPosed 方案。`Re` 大概就是接着以前这类模块的路重新做一个，而且从一开始就只面向重构后的新版 X Android 界面。
 
-`Re` 大概就是接着以前这类模块的路重新做一个，而且从一开始就只面向重构后的新版 X Android 界面。
-
-最开始只是因为受不了 iOS 端 Premium 用户能自定义导航栏，Android 却到现在没有，于是补了一个。之后大概也会继续加点自己想改的小东西，我也希望模块自身的设置 UI 足够舒服顺手。
+最开始只是因为受不了 iOS 端 Premium 用户能自定义导航栏，Android 却到现在没有，于是补了一个。之后大概也会继续加点自己想改的东西，也希望模块自身的设置 UI 足够舒服。
 
 ## 兼容性
 
@@ -156,27 +147,6 @@ Re:X 仅面向 2026 年重写后的新版 X 界面，不支持重构前的旧版
 
 Re:X 会针对具体 X 版本适配。更新 X 后，部分 Hook 可能因混淆结构变化暂时失效；其它版本会尽可能通过特征匹配兜底，但不保证兼容。
 
-## 安装与设置
-
-1. 准备已 Root、运行 Android 12 或更高版本，并安装兼容 LSPosed 框架的设备。
-2. 安装受支持的官方 X Android 客户端。
-3. 从 [官方 GitHub Releases](https://github.com/Xposed-Modules-Repo/one.dot.rex/releases) 或 Telegram 群组下载 Re:X APK。
-4. 安装 Re:X，在 LSPosed 中启用模块，并选择 **X**（`com.twitter.android`）作为作用域。
-5. 重新启动 X。
-6. 通过 Re:X 桌面图标或 LSPosed 模块设置入口打开设置。
-
-Re:X 不需要修改或分发预先 Patch 的 X APK。
-
-设置会立即保存；大部分 Hook 会在 X 进程启动时读取配置，因此修改后请重新启动 X。Re:X 内置了 Root **重启 X** 操作。
-
-你也可以在 **导航 → 侧边栏页脚** 中加入 X 内的 Re:X 设置入口，再按需隐藏桌面图标。
-
-### 可选：系统界面作用域
-
-自定义 X 开屏配色需要额外启用 `com.android.systemui` 作用域。
-
-如果该功能没有生效，请启用该作用域并重启一次系统界面。其它功能通常不需要 System UI 作用域。
-
 ## 更新、交流与反馈
 
 - **正式版本：** [GitHub Releases](https://github.com/Xposed-Modules-Repo/one.dot.rex/releases)
@@ -184,15 +154,15 @@ Re:X 不需要修改或分发预先 Patch 的 X APK。
 - **更新、讨论、反馈与建议：** [Telegram 群组](https://t.me/re_x_mod)
 - **开发者：** [1Dot 的 GitHub](https://github.com/1-dot) · [酷安主页](https://www.coolapk.com/u/1414025)
 
-反馈兼容性问题时，请尽量附上 Re:X 版本、X 版本、Android 版本和具体失效的选项。
+反馈兼容性问题时，请尽量附上 Re:X 版本、X 版本和具体失效的选项。
 
 ## 支持 Re:X
 
-Re:X 免费使用。如果它让刷推舒服了一点，欢迎前往 [Ko-fi 支持 1Dot](https://ko-fi.com/1dot)，或者在应用里的「支持」中找到更多信息。
+Re:X 免费使用。如果它让刷推顺手了一点，欢迎前往 [Ko-fi 支持 1Dot](https://ko-fi.com/1dot)，或者在应用里的「支持」中找到更多信息。
 
 ## 分发
 
-如果想分享 Re:X，欢迎分享官方项目页、Release、LSPosed 页面或 Telegram 群组链接，不要重新上传 APK，也尽量不要在 X 平台集中宣传。
+如果想分享 Re:X，欢迎分享官方项目页、Release、LSPosed 页面或 Telegram 群组链接，不要重新上传 APK。
 
 其它分发与修改说明见 [TERMS_zh-CN.md](TERMS_zh-CN.md)。
 

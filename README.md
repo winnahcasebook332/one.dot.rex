@@ -26,7 +26,7 @@
 ## Preview
 
 <details open>
-<summary>Show details</summary>
+<summary>Preview screenshots</summary>
 
 <table>
   <tr>
@@ -126,20 +126,11 @@
 
 - Browse and override Boolean Feature Switches collected from the currently supported X version.
 
-### Planned / TODO
-
-The following features are under priority evaluation or development and may be added gradually in subsequent versions:
-
-- [ ] Grok translation source replacement
-- [ ] Conditional filtering of posts or replies
-
 ## Where does the “Re” come in?
 
-After Hachidori stopped being maintained, I never found another LSPosed solution that really fit the way I use X.
+After Hachidori stopped being maintained, I never found another LSPosed solution that really fit the way I use X. The `Re` is basically about picking up where this kind of module left off and starting fresh at the same time. Re:X is built from the ground up specifically for the refactored X Android interface.
 
-The `Re` is basically about picking up where this kind of module left off and starting fresh at the same time. Re:X is built from the ground up specifically for the refactored X Android interface.
-
-It started simply because I couldn't stand that Premium users on iOS could customize their navigation bar while Android users still couldn't, so I added it myself. I'll probably keep adding little things I personally want to change, and I want the module's own settings UI to feel pleasant and easy to use too.
+It started simply because I couldn't stand that Premium users on iOS could customize their navigation bar while Android users still couldn't, so I added it myself. I'll probably keep adding things I personally want to change, and I want the module's own settings UI to feel pleasant too.
 
 ## Compatibility
 
@@ -156,27 +147,6 @@ Re:X only targets the redesigned X interface introduced in 2026. The older pre-r
 
 Re:X is adapted for specific X versions. After an X update, individual hooks may temporarily stop working when obfuscated structures change. Other versions use feature-based fallback matching where possible, but compatibility is not guaranteed.
 
-## Installation & settings
-
-1. Use a rooted device running Android 12 or later with a compatible LSPosed framework installed.
-2. Install a supported official version of X for Android.
-3. Download the Re:X APK from the [official GitHub Releases](https://github.com/Xposed-Modules-Repo/one.dot.rex/releases) or the Telegram group.
-4. Install Re:X, enable it in LSPosed, and select **X** (`com.twitter.android`) as its scope.
-5. Restart X.
-6. Open Re:X settings from its launcher icon or the LSPosed module settings entry.
-
-Re:X does not require a modified or pre-patched X APK.
-
-Settings are saved immediately. Most hooks read their configuration when the X process starts, so restart X after making changes. Re:X includes a root-powered **Restart X** action for this.
-
-You can also add a Re:X settings entry inside X under **Navigation → Drawer footer**, then hide the launcher icon if you want.
-
-### Optional: System UI scope
-
-Custom X splash screen colors also require the `com.android.systemui` scope.
-
-If this feature is not working, enable that scope and restart System UI once. Other features normally do not need the System UI scope.
-
 ## Updates, discussion & feedback
 
 - **Stable releases:** [GitHub Releases](https://github.com/Xposed-Modules-Repo/one.dot.rex/releases)
@@ -184,7 +154,7 @@ If this feature is not working, enable that scope and restart System UI once. Ot
 - **Updates, discussion, feedback & suggestions:** [Telegram group](https://t.me/re_x_mod)
 - **Developer:** [1Dot on GitHub](https://github.com/1-dot) · [Coolapk profile](https://www.coolapk.com/u/1414025)
 
-When reporting a compatibility issue, please include your Re:X version, X version, Android version, and the specific option that stopped working.
+When reporting a compatibility issue, please include your Re:X version, X version, and the specific option that stopped working.
 
 ## Support Re:X
 
@@ -192,7 +162,7 @@ Re:X is free to use. If it makes scrolling X a little nicer, you can [support 1D
 
 ## Distribution
 
-If you'd like to share Re:X, please share the official project page, Releases, LSPosed page, or Telegram group instead of re-uploading the APK. Please also avoid large-scale promotion on X itself.
+If you'd like to share Re:X, please share the official project page, Releases, LSPosed page, or Telegram group instead of re-uploading the APK.
 
 See [TERMS.md](TERMS.md) for the rest of the distribution and modification guidelines.
 
