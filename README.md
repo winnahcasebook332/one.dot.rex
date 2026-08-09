@@ -50,7 +50,7 @@
     <td width="50%" align="center">
       <img src="assets/screenshots/fab_button.jpg" alt="FAB button"><br>
       <strong>FAB button</strong><br>
-      <sub>Material 3 rounded rectangle with configurable color schemes</sub>
+      <sub>Show/hide, Material 3 rounded rectangle with configurable color schemes</sub>
     </td>
   </tr>
   <tr>
@@ -62,7 +62,7 @@
     <td width="50%" align="center">
       <img src="assets/screenshots/features.jpg" alt="Features and enhancements"><br>
       <strong>Features & enhancements</strong><br>
-      <sub>Grok cleanup, custom share domains, media downloads, and search result tab controls</sub>
+      <sub>Grok cleanup, custom share domains, media downloads, post actions, and search result tab controls</sub>
     </td>
   </tr>
 </table>
@@ -76,6 +76,7 @@
 - Use system dynamic colors for the app theme, with optional Soft Accent and Material semantic color modes.
 - Make the standard Premium blue check follow the primary or tertiary theme color.
 - Configure separate splash screen color combinations for light and dark mode.
+- Hide the compose FAB.
 - Replace the circular compose FAB with a Material 3 rounded rectangle and choose from different Material color schemes.
 - Choose between X's default in-app floating notification, the old wide solid-color UI, or the newer compact UI with a blurred background that X has not enabled yet.
 - Independently choose the old, X default, or newer icon-based tab style for Home, profiles, Explore, and search details.
@@ -99,6 +100,7 @@
 - Hide promoted content in timelines and post replies.
 - Hide the live Spaces bar at the top of the timeline.
 - Hide the floating new-posts prompt at the top of the timeline.
+- Hide the Upgrade to Premium button in the Home top bar.
 - Prevent the Home timeline from refreshing automatically when the app starts or tab is switched.
 - Remember and restore the last tab when the app starts.
 - Remember and restore the last scroll position in the timeline when the app starts.
@@ -121,10 +123,12 @@
 - Hide the Grok button on post cards.
 - Hide the Grok item in the image long-press menu.
 - Hide the Grok button in the post detail toolbar.
+- Independently manage the `Reply`, `Repost`, `Like`, `Dislike`, `Views`, `Bookmark`, and `Share` action buttons below timeline posts, the main post on the detail screen, and replies on the detail screen.
 
-### Experimental
+### Other features
 
 - Browse and override Boolean Feature Switches collected from the currently supported X version.
+- Back up and restore settings.
 
 ## Where does the “Re” come in?
 

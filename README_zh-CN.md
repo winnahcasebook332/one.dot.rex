@@ -50,7 +50,7 @@
     <td width="50%" align="center">
       <img src="assets/screenshots/fab_button.jpg" alt="FAB 按钮"><br>
       <strong>FAB 按钮</strong><br>
-      <sub>Material 3 圆角矩形与配色方案控制</sub>
+      <sub>显隐、Material 3 圆角矩形与配色方案控制</sub>
     </td>
   </tr>
   <tr>
@@ -62,7 +62,7 @@
     <td width="50%" align="center">
       <img src="assets/screenshots/features.jpg" alt="功能与增强"><br>
       <strong>功能与增强</strong><br>
-      <sub>净化 Grok、自定义分享域名、媒体下载与搜索结果 Tab 控制</sub>
+      <sub>净化 Grok、自定义分享域名、媒体下载、帖子操作与搜索结果 Tab 控制</sub>
     </td>
   </tr>
 </table>
@@ -76,6 +76,7 @@
 - 主题色使用系统动态取色，可选柔和 Accent 或 Material 语义色模式
 - 让普通 Premium 认证蓝勾跟随主色或第三主题色
 - 分别设置浅色、深色模式的 Splash 启动界面配色组合
+- 隐藏发帖 FAB
 - 将圆形发帖 FAB 改为 Material 3 圆角矩形，并选择不同 Material 配色方案
 - 为应用内悬浮通知选择 X 默认、旧版纯色宽 UI 或未启用的新版模糊背景小 UI
 - 分别为主页、用户主页、探索页和搜索详情页选择旧版、X 默认或新版带图标 Tab 样式
@@ -99,6 +100,7 @@
 - 隐藏信息流和帖子回复中的推广内容
 - 隐藏信息流顶部的直播空间栏
 - 隐藏信息流顶部的新帖悬浮提示
+- 隐藏首页顶栏升级 Premium 按钮
 - 阻止首页信息流在应用启动或 Tab 切换时自动刷新
 - 启动应用时记忆并恢复选中的首页 Tab
 - 启动应用时记忆并恢复上次在信息流中的滚动位置
@@ -121,10 +123,12 @@
 - 隐藏帖子卡片中的 Grok 按钮
 - 隐藏图片长按菜单中的 Grok 项
 - 隐藏帖子详情页顶栏的 Grok 按钮
+- 分别管理时间线帖子、详情页主帖、详情页回复的 `回复` `转帖` `喜欢` `不喜欢` `浏览` `书签` `分享` 这几个帖子底部操作按钮
 
-### 实验功能
+### 其他功能
 
 - 浏览并覆盖当前适配版本中整理出的布尔 Feature Switch
+- 设置备份与恢复
 
 ## 哪里 Re 了
 
