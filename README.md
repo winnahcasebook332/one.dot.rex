@@ -19,7 +19,7 @@
   A brand-new LSPosed module for the New X Android app
 </p>
 
-> Re:X is closed source. This is its official project page, documentation, and release repository—the source isn't here; it's on my computer.
+> This is the official project page, documentation, and release repository for Re:X.
 
 ## Preview
 
@@ -142,9 +142,9 @@ It started simply because I couldn't stand that Premium users on iOS could custo
 | Android        | Android 12 or later (API 31+)                                                               |
 | Root           | Required                                                                                    |
 | Framework      | A recent LSPosed build, or another compatible framework providing Modern Xposed API 101–102 |
-| Target package | X for Android — `com.twitter.android`                                                       |
-| Current target | X 12.15.0-beta                                                                              |
-| Tested with    | X 12.14.0-release, X 12.13.0-release                                                                           |
+| Target package | X for Android — `com.twitter.android` (not X Lite)                                             |
+| Current target | The latest beta test branch version of main app                                                                |
+| Tested with    | X 12.15.1-release and newer versions                                                             |
 
 Re:X only targets the redesigned X interface introduced in 2026. The older pre-rewrite interface and legacy mode are not supported.
 
@@ -171,7 +171,7 @@ See [TERMS.md](TERMS.md) for the rest of the distribution and modification guide
 
 ## Notes & credits
 
-Re:X is an independent third-party project. It is not affiliated with, endorsed by, or authorized by X Corp.
+Re:X is an independent third-party closed-source project. It is not affiliated with YouTube ReX, ReX Patches, or any other similarly named projects.
 
 - [jdecked/twemoji v17.0.3](https://github.com/jdecked/twemoji/tree/v17.0.3): Twemoji graphics bundled with Re:X, used under CC BY 4.0. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for details.
 - Developed and maintained by [1Dot](https://github.com/1-dot).

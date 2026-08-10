@@ -19,7 +19,7 @@
   面向新版 X Android 客户端的全新 LSPosed 模块
 </p>
 
-> Re:X 是闭源项目。这里是它的官方介绍、文档与发布仓库——源码不在这里，源码在我电脑里。
+> 这里是 Re:X 的官方介绍、文档与发布仓库。
 
 ## 部分预览
 
@@ -142,9 +142,9 @@ Hachidori 停止维护以后，我一直没找到一个很合自己习惯的同�
 | Android | Android 12 或更高版本（API 31+）                     |
 | Root    | 必需                                            |
 | 框架      | 新版 LSPosed，或其它提供 Modern Xposed API 101–102 的兼容框架 |
-| 目标包名    | X Android 客户端 — `com.twitter.android`         |
-| 当前适配目标  | X 12.15.0-beta                                |
-| 已测试兼容   | X 12.14.0-release, X 12.13.0-release                             |
+| 目标包名    | X Android 客户端 — `com.twitter.android`（而不是 X Lite）         |
+| 当前适配目标  | 尽可能最新的 beta 测试分支版本                                |
+| 已测试兼容   | X 12.15.1-release 以及更新版本                             |
 
 Re:X 仅面向 2026 年重写后的新版 X 界面，不支持重构前的旧版界面或旧模式。
 
@@ -171,7 +171,7 @@ Re:X 免费使用。如果它让刷推顺手了一点，欢迎前往 [Ko-fi 支�
 
 ## 说明与致谢
 
-Re:X 是独立第三方项目，与 X Corp. 无关联，也未获得其认可或授权。
+Re:X 是独立第三方闭源项目，与 YouTube ReX、ReX Patches 等项目仅为名称巧合，没有任何关联。
 
 - [jdecked/twemoji v17.0.3](https://github.com/jdecked/twemoji/tree/v17.0.3)：Re:X 内置的 Twemoji 图形资源，按 CC BY 4.0 使用。详见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 - 由 [1Dot](https://github.com/1-dot) 开发与维护。
