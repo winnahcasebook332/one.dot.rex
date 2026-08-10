@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  A brand-new LSPosed module for the New X Android app
+  A LSPosed module for the New X Android app
 </p>
 
 > This is the official project page, documentation, and release repository for Re:X.

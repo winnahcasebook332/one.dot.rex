@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  面向新版 X Android 客户端的全新 LSPosed 模块
+  面向新版 X Android 客户端的 LSPosed 模块
 </p>
 
 > 这里是 Re:X 的官方介绍、文档与发布仓库。
