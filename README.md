@@ -91,6 +91,7 @@
 
 - Freely show or hide Home, Explore, Grok, Notifications, and Chat in the bottom navigation bar.
 - Set main and footer drawer items to follow X, always show where supported, or hide.
+- Customize the width of the drawer (side menu).
 - Add a Re:X settings entry to X's drawer.
 
 ### Timeline, search & profiles
